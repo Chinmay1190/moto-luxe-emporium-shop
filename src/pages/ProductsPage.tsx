@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Navbar } from "@/components/Navbar";
@@ -10,7 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
 import { products, brands, categories, Product } from "@/data/products";
-import { ChevronDown, ChevronUp, Filter, X, SlidersHorizontal } from "lucide-react";
+import { ChevronDown, ChevronUp, Filter, X, SlidersHorizontal, ChevronLeft, ChevronRight } from "lucide-react";
 
 const ProductsPage = () => {
   const [searchParams] = useSearchParams();
